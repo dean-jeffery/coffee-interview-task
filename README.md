@@ -10,7 +10,7 @@ The "Innovation" block (first blue background section) seemed a bit strange to m
 
 The blog/article section is pulling in the 3 latest blog posts, then showing the title, excerpt and thumbnail. Again fairly straight forward, and just stack them 1 wide on mobile.
 
-Moving onto the more "backend" side of things, interms of getting the most out of wordpress and client editable content, definitely took a lot more work with my proffesional experience all being front-end focused. Had a bit of a false start at first going down the blocks route, soon pivoted back to how I remember building wordpress sites in the past. Given more time to research more modern wordpress development I'd definitely be able to provide more customisability for the user, I just wanted to maek sure I got a presentable site for the deadline.
+Moving onto the more "backend" side of things, interms of getting the most out of wordpress and client editable content, definitely took a lot more work with my professional experience all being front-end focused. Had a bit of a false start at first going down the blocks route, soon pivoted back to how I remember building wordpress sites in the past. Given more time to research more modern wordpress development I'd definitely be able to provide more customisability for the user, I just wanted to maek sure I got a presentable site for the deadline.
 
 Header content is dynamic, and in my testing was scaling well with more links added. I haven't actually added any sort of burger menu on mobile given it has only two links in the design. However, as the client would be able to add more I would ensure this was added if it was a production build.
 As mentioned before the blog posts are dynamic, pulling in the latest 3 posts.
