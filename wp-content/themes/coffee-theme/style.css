@@ -51,6 +51,9 @@ h1 {
 	font-size: 4rem;
 	line-height: 1.2;
 }
+h1 .header-break {
+	display: block;
+}
 
 h2 {
 	font-size: 2rem;
@@ -140,6 +143,8 @@ nav ul li a {
 }
 .hero-content {
 	padding: 2rem;
+	/* not my favourite solution, with some more time i'd create some proper 
+	wrapper classes to uniform all the content max-widths through the page */
 	padding-left: 10rem;
 }
 
@@ -421,14 +426,6 @@ footer {
 		min-width: unset;
 	}
 
-	/* .product-grid {
-		justify-content: center;
-	} */
-
-	/* .product {
-		width: 45%;
-	} */
-
 	.product-highlight {
 		flex-direction: column;
 	}
@@ -436,6 +433,13 @@ footer {
 	.product-logo {
 		order: 3;
 		padding: 1rem;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.product-logo > img {
+		margin-bottom: 0;
 	}
 	.product-info {
 		order: 1;
@@ -464,5 +468,15 @@ footer {
 
 	.footer-column {
 		margin-bottom: 2rem;
+	}
+}
+
+/* specific media queries */
+@media screen and (max-width: 1300px) and (min-width: 769px) {
+	.hero-content {
+		padding-left: 5rem;
+	}
+	h1 {
+		font-size: 3rem;
 	}
 }

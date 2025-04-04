@@ -13,10 +13,6 @@
             <div class="logo">COFFEE</div>
             <nav>
                 <ul>
-                    <!-- <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
- -->
-
                     <?php
 
                     $args = array(

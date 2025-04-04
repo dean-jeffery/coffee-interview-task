@@ -5,7 +5,7 @@
     <img class="hero-img" src="/wp-content/themes/coffee-theme/assets/images/hero-image.png" alt="">
     <div class="hero-content-background">
         <div class="hero-content">
-            <h1>Move forward </br>with confidence</h1>
+            <h1><?php echo get_theme_mod('hero-header-lineone') ?><span class="header-break"><?php echo get_theme_mod('hero-header-linetwo') ?></span></h1>
             <div class="hero-buttons">
                 <button class="button">Find a bespoke orthosis</button>
                 <button class="button">Transform your patients' lives</button>
